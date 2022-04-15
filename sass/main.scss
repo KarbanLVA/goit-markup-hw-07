@@ -1,0 +1,21 @@
+//переменные var
+@import"./utils/variables";
+// базовые стили
+@import"./components/base/base";
+
+// HEADER
+@import"./components/header/header";
+// logo
+@import"./components/header/logo";
+// navigation
+@import"./components/header/navigation";
+// contacts
+@import"./components/header/contacts";
+
+// HERO
+@import"./components/studio/section/hero/hero";
+// title
+@import"./components/studio/section/hero/title";
+// button
+@import"./components/studio/section/hero/button";
+
