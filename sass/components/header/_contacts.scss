@@ -2,17 +2,17 @@
     margin-left: auto;
 }
 
-.contact_list {
+&_list {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.contact_item:not(:last-child) {
+&_item:not(:last-child) {
     margin-right: 30px;
 }
 
-.contact_link {
+&_link {
     display: flex;
     align-items: center;
     padding: 32px 0;
@@ -27,12 +27,12 @@
     transition: color var(--transition-origin);
 }
 
-.contact_link:hover,
-.contact_link:focus {
+&_link:hover,
+&_link:focus {
     color: var(--logo-hover-color);
 }
 
-.contact_icon {
+&_icon {
     margin-right: 10px;
     fill: currentColor;
 }

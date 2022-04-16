@@ -2,7 +2,7 @@
     margin-bottom: 20px;
 }
 
-.textarea_label {
+&_label {
     margin-bottom: 4px;
 
     font-weight: 400;
@@ -12,7 +12,7 @@
     color: #757575;
 }
 
-.textarea_comment {
+&_comment {
     height: 120px;
     resize: none;
     padding: 12px 16px;
@@ -23,16 +23,16 @@
     transition: border-color var(--transition-origin);
 }
 
-.textarea_comment:hover,
-.textarea_comment:focus {
+&_comment:hover,
+&_comment:focus {
     border-color: var(--logo-hover-color);
 }
 
-.textarea_comment:focus-within {
+&_comment:focus-within {
     border-color: var(--logo-hover-color);
 }
 
-.textarea_comment::placeholder {
+&_comment::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;

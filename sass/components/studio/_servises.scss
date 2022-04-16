@@ -2,7 +2,7 @@
     padding-top: 0;
 }
 
-.sevices_title {
+&_title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -13,20 +13,20 @@
     color: var(--main-black-color);
 }
 
-.services_list {
+&_list {
     display: flex;
     list-style: none;
 }
 
-.services_item:not(:last-child) {
+&_item:not(:last-child) {
     margin-right: 30px;
 }
 
-.services_subitem {
+&_subitem {
     position: relative;
 }
 
-.services_name {
+&_name {
     display: flex;
     justify-content: center;
     align-items: center;

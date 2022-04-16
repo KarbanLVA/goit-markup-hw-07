@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.overlay_text {
+&_text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     color: var(--main-white-color);
 }
 
-.grid-cards_link:hover .overlay_text,
-.grid-cards_link:focus .overlay_text {
+.grid-cards_link:hover &_text,
+.grid-cards_link:focus &_text {
     transform: translateY(0);
 }

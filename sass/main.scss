@@ -4,21 +4,12 @@
 @import"./components/base/base";
 
 // HEADER
-@import"./components/header/header";
-// logo
-@import"./components/header/logo";
-// navigation
-@import"./components/header/navigation";
-// contacts
-@import"./components/header/contacts";
+// header-logo-navigatoin-contacts
+@import"./components/header/module";
 
 // СТУДИЯ
-// hero
-@import"./components/studio/hero/hero";
-// title
-@import"./components/studio/hero/title";
-// button
-@import"./components/studio/hero/button";
+// hero-button-title
+@import"./components/studio/hero/module";
 
 // best
 @import"./components/studio/best";
@@ -32,13 +23,8 @@
 // ПОРТФОЛИО
 // buttons
 @import"./components/portfolio/buttons";
-// grid-cards
-// card
-@import"./components/portfolio/grid-cards/card";
-// overlay
-@import"./components/portfolio/grid-cards/overlay";
-// discription
-@import"./components/portfolio/grid-cards/discription";
+// grid-cards (card-overlay-discription)
+@import"./components/portfolio/grid-cards/module";
 
 // FOOTER
 @import"./components/footer/footer";
@@ -59,15 +45,7 @@
 // close button
 @import"./components/modal-window/close-button";
 // modal form
-@import"./components/modal-window/modal-form/form";
-// label+input+icon
-@import"./components/modal-window/modal-form/label-input";
-// textarea
-@import"./components/modal-window/modal-form/textarea";
-// checkbox
-@import"./components/modal-window/modal-form/checkbox";
-// button submit
-@import"./components/modal-window/modal-form/button-submit";
+@import"./components/modal-window/modal-form/module";
 
 
 

@@ -2,7 +2,7 @@
     background-color: #f5f4fa;
 }
 
-.team_title {
+&_title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -13,29 +13,29 @@
     color: var(--main-black-color);
 }
 
-.team_list {
+&_list {
     display: flex;
 
     list-style: none;
 }
 
-.team_item:not(:last-child) {
+&_item:not(:last-child) {
     margin-right: 30px;
 }
 
-.team_item {
+&_item {
     background-color: var(--main-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team_subitem {
+&_subitem {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team_name {
+&_name {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -45,7 +45,7 @@
     color: var(--main-black-color);
 }
 
-.team_text {
+&_text {
     margin-bottom: 16px;
 
     font-weight: 400;
@@ -63,11 +63,11 @@
     justify-content: center;
 }
 
-.messenger_item:not(:last-child) {
+&_item:not(:last-child) {
     margin-right: 10px;
 }
 
-.messenger_link {
+&_link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,17 +79,17 @@
     transition: background-color var(--transition-origin)
 }
 
-.messenger_link:hover,
-.messenger_link:focus {
+&_link:hover,
+&_link:focus {
     background-color: var(--logo-hover-color);
 }
 
-.messenger_icon {
+&_icon {
     fill: #afb1b8;
     transition: fill var(--transition-origin);
 }
 
-.messenger_link:hover .messenger_icon,
-.messenger_link:focus .messenger_icon {
+&_link:hover &_icon,
+&_link:focus &_icon {
     fill: var(--main-white-color);
 }
