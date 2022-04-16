@@ -12,10 +12,62 @@
 // contacts
 @import"./components/header/contacts";
 
-// HERO
-@import"./components/studio/section/hero/hero";
+// СТУДИЯ
+// hero
+@import"./components/studio/hero/hero";
 // title
-@import"./components/studio/section/hero/title";
+@import"./components/studio/hero/title";
 // button
-@import"./components/studio/section/hero/button";
+@import"./components/studio/hero/button";
+
+// best
+@import"./components/studio/best";
+// servises
+@import"./components/studio/servises";
+// team
+@import"./components/studio/team";
+// customers
+@import"./components/studio/customers";
+
+// ПОРТФОЛИО
+// buttons
+@import"./components/portfolio/buttons";
+// grid-cards
+// card
+@import"./components/portfolio/grid-cards/card";
+// overlay
+@import"./components/portfolio/grid-cards/overlay";
+// discription
+@import"./components/portfolio/grid-cards/discription";
+
+// FOOTER
+@import"./components/footer/footer";
+// logo
+@import"./components/footer/logo";
+// address
+@import"./components/footer/address";
+// join
+@import"./components/footer/join";
+// subscride
+@import"./components/footer/subscride";
+
+// MODAL WINDOW
+// backdrop
+@import"./components/modal-window/backdrop";
+// window
+@import"./components/modal-window/window";
+// close button
+@import"./components/modal-window/close-button";
+// modal form
+@import"./components/modal-window/modal-form/form";
+// label+input+icon
+@import"./components/modal-window/modal-form/label-input";
+// textarea
+@import"./components/modal-window/modal-form/textarea";
+// checkbox
+@import"./components/modal-window/modal-form/checkbox";
+// button submit
+@import"./components/modal-window/modal-form/button-submit";
+
+
 

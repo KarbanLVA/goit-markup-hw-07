@@ -1,0 +1,29 @@
+.address_list {
+    list-style: none;
+}
+
+.address_item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address_map,
+.address_contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white-color);
+    text-decoration: none;
+}
+
+.address_contact {
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color var(--transition-origin);
+}
+
+.address_contact:hover,
+.address_contact:focus {
+    color: var(--logo-hover-color);
+}

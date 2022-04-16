@@ -205,14 +205,14 @@ img {
   text-transform: uppercase;
   color: var(--main-white-color);
 } */
-.hero_button {
+/* .hero_button {
   padding: 10px 32px;
   min-width: 200px;
-}
+} */
 
 /* секция Наши Преимущества */
 
-.best_list {
+/* .best_list {
   display: flex;
   justify-content: center;
 
@@ -255,11 +255,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* секция Чем Мы Занимаемся */
 
-.services {
+/* .services {
   padding-top: 0;
 }
 .sevices_title {
@@ -299,11 +299,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-white-color);
-}
+} */
 
 /* секция Наша Команда */
 
-.team {
+/* .team {
   background-color: #f5f4fa;
 }
 .team_title {
@@ -385,11 +385,11 @@ img {
 .messenger_link:hover .messenger_icon,
 .messenger_link:focus .messenger_icon {
   fill: var(--main-white-color);
-}
+} */
 
 /* секция Постоянные клиенты */
 
-.customer_title {
+/* .customer_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -434,13 +434,13 @@ img {
 .customer_link:hover .customer_icon,
 .customer_link:focus .customer_icon {
   fill: var(--logo-hover-color);
-}
+} */
 
 /* страница ПОРТФОЛИО */
 
 /* кнопки */
 
-.grid-buttons {
+/* .grid-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,10 +474,10 @@ img {
   color: var(--main-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 /* список работ */
 
-.grid-cards {
+/* .grid-cards {
   display: flex;
   flex-wrap: wrap;
 
@@ -503,8 +503,11 @@ img {
 .grid-cards_link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.overlay {
+} */
+
+/* overlay */
+
+/* .overlay {
   position: relative;
   overflow: hidden;
 }
@@ -533,8 +536,11 @@ img {
 .grid-cards_link:hover .overlay_text,
 .grid-cards_link:focus .overlay_text {
   transform: translateY(0);
-}
-.description {
+} */
+
+/* описание карточки */
+
+/* .description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;  
 }
@@ -554,11 +560,11 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* FOOTER */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -569,19 +575,19 @@ img {
 }
 .footer-block {
   margin-right: 70px;
-}
+} */
 /*  логотип в footer*/
 
-.footer_logo {  
+/* .footer_logo {  
   margin-bottom: 20px;
 }
 .footer_logo--studio {
   color: var(--main-white-color);
-}
+} */
 
 /* адрес и контакты */
 
-.address_list {
+/* .address_list {
   list-style: none;
 }
 .address_item:not(:last-child) {
@@ -605,11 +611,11 @@ img {
 .address_contact:hover,
 .address_contact:focus {
   color: var(--logo-hover-color);
-}
+} */
 
 /* ПРИСОЕДИНЯЙТЕСЬ */
 
-.join_title {
+/* .join_title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -643,10 +649,11 @@ img {
 }
 .join_icon {
   fill: var(--main-white-color);
-}
+} */
+
 /* Подпишитесь на рассылку */
 
-.subscride {
+/* .subscride {
   margin-left: auto;
 }
 .subscride_title {
@@ -689,11 +696,11 @@ img {
 }
 .subscride_icon {
   margin-left: 10px;
-}
+} */
 
 /* МОДАЛЬНОЕ ОКНО */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -712,9 +719,9 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
-.modal-wrapper {
+/* .modal-wrapper {
   padding: 40px;
   position: absolute;
   top: 50%;
@@ -728,9 +735,9 @@ img {
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
+} */
 
-.modal-button {
+/* .modal-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -749,11 +756,11 @@ img {
 
 .modal-button:hover {
   fill: var(--logo-hover-color);
-}
+} */
 
 /* форма заполнения в модальном окне */
 
-.modal-form {
+/* .modal-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -777,10 +784,9 @@ img {
   margin-bottom: 10px;
   width: 100%;
   position: relative;
-}
+} */
 
-.modal-form_label,
-.textarea_label {
+/* .modal-form_label {
   margin-bottom: 4px;
 
   font-weight: 400;
@@ -813,9 +819,26 @@ img {
   bottom: 11px;
   left: 12px;
   transition: fill var(--transition-origin);
+} */
+/* .modal-form_input:hover + .modal-form_icon,
+.modal-form_input:focus + .modal-form_icon {
+  fill: var(--logo-hover-color);
 }
-.textarea {
+
+.modal-form_input:focus-within + .modal-form_icon {
+  fill: var(--logo-hover-color);
+} */
+/* .textarea {
   margin-bottom: 20px;
+}
+.textarea_label {
+  margin-bottom: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
 }
 .textarea_comment {
   height: 120px;
@@ -843,19 +866,11 @@ img {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5)
-}
+} */
 
 
-.modal-form_input:hover + .modal-form_icon,
-.modal-form_input:focus + .modal-form_icon {
-  fill: var(--logo-hover-color);
-}
 
-.modal-form_input:focus-within + .modal-form_icon {
-  fill: var(--logo-hover-color);
-}
-
-.checkbox {
+/* .checkbox {
   margin-bottom: 30px;
   flex-direction: row;
   justify-content: space-evenly;
@@ -897,9 +912,9 @@ img {
 
 .checkbox_link {
   color: var(--logo-hover-color);
-}
+} */
 
-.modal-form_button {
+/* .modal-form_button {
   min-width: 200px;
   padding: 10px 55px; 
-}
+} */
