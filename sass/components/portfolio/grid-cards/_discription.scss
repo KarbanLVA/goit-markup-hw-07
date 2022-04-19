@@ -3,7 +3,7 @@
     border: 1px solid #eeeeee;
 }
 
-&_title {
+.description_title {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -13,7 +13,7 @@
     color: var(--main-black-color);
 }
 
-&_text {
+.description_text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;

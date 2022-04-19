@@ -2,7 +2,7 @@
     margin-left: auto;
 }
 
-&_title {
+.subscride__title {
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -13,11 +13,11 @@
     color: var(--main-white-color);
 }
 
-&_form {
+.subscride__form {
     display: flex;
 }
 
-&_input {
+.subscride__input {
     margin-right: 12px;
     padding: 15px 16px;
     width: 358px;
@@ -28,7 +28,7 @@
     border-radius: 4px;
 }
 
-&_input::placeholder {
+.subscride__input::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -36,7 +36,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-&_button {
+.subscride__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,6 @@
     min-width: 200px;
 }
 
-&_icon {
+.subscride__icon {
     margin-left: 10px;
 }

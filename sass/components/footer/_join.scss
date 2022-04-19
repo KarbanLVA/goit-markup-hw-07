@@ -1,4 +1,4 @@
-.join_title {
+.join__title {
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -9,16 +9,16 @@
     color: #ffffff;
 }
 
-.join_list {
+.join__list {
     display: flex;
     list-style: none;
 }
 
-.join_item:not(:last-child) {
+.join__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.join_link {
+.join__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,13 +28,14 @@
     height: 44px;
 
     transition: background-color var(--transition-origin);
+
+    &:hover,
+    &:focus {
+        background-color: var(--logo-hover-color);
+    }
 }
 
-.join_link:hover,
-.join_link:focus {
-    background-color: var(--logo-hover-color);
-}
 
-.join_icon {
+.join__icon {
     fill: var(--main-white-color);
 }

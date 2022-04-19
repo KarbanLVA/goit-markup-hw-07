@@ -1,19 +1,19 @@
-.best_list {
+.best {
     display: flex;
     justify-content: center;
 
     list-style: none;
 }
 
-.best_item {
+.best__item {
     width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.best_item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.best_subitem {
+.best__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +25,11 @@
     border-radius: 4px;
 }
 
-.best_icon {
+.best__icon {
     display: block;
 }
 
-.best_name {
+.best__title {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -40,7 +40,7 @@
     color: var(--main-black-color);
 }
 
-.best_text {
+.best__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

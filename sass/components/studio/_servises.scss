@@ -1,8 +1,8 @@
-.services {
+.section-services {
     padding-top: 0;
 }
 
-&_title {
+.section__title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -13,20 +13,20 @@
     color: var(--main-black-color);
 }
 
-&_list {
+.services {
     display: flex;
     list-style: none;
 }
 
-&_item:not(:last-child) {
+.services__item:not(:last-child) {
     margin-right: 30px;
 }
 
-&_subitem {
+.services__box {
     position: relative;
 }
 
-&_name {
+.services__title {
     display: flex;
     justify-content: center;
     align-items: center;

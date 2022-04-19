@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-&_lable {
+.checkbox_lable {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +18,11 @@
     color: #757575;
 }
 
-&_input {
+.checkbox_input {
     appearance: none;
 }
 
-&_wrapper {
+.checkbox_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,11 +33,11 @@
     border-radius: 4px;
 }
 
-&_input:checked + .checkbox_wrapper {
+.checkbox_input:checked + .checkbox_wrapper {
     background-color: var(--logo-hover-color);
     border: transparent;
 }
 
-&_link {
+.checkbox_link {
     color: var(--logo-hover-color);
 }

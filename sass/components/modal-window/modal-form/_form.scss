@@ -5,7 +5,7 @@
     width: 448px;
 }
 
-&_name {
+.modal-form_name {
     margin-bottom: 12px;
 
     font-weight: 700;
@@ -16,7 +16,7 @@
     color: #212121;
 }
 
-&_item {
+.modal-form_item {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
