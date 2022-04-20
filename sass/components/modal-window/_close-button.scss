@@ -13,8 +13,8 @@
     border-radius: 50%;
     background-color: var(--main-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.modal-button:hover {
-    fill: var(--logo-hover-color);
+    
+    &:hover {
+        fill: var(--logo-hover-color);
+    }
 }

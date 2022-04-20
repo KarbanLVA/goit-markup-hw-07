@@ -1,9 +1,9 @@
 .description {
     padding: 20px 24px;
-    border: 1px solid #eeeeee;
+    border-color: 1px solid #eeeeee;
 }
 
-.description_title {
+.description__title {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -13,7 +13,7 @@
     color: var(--main-black-color);
 }
 
-.description_text {
+.description__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;

@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.overlay_text {
+.overlay__text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +24,9 @@
     line-height: 1.56;
     letter-spacing: 0.03em;
     color: var(--main-white-color);
-}
-
-.grid-cards_link:hover .overlay_text,
-.grid-cards_link:focus .overlay_text {
-    transform: translateY(0);
+    
+    .grid-cards__link:hover &,
+    .grid-cards__link:focus & {
+        transform: translateY(0);
+    }
 }

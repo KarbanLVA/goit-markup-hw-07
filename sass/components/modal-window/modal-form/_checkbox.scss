@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.checkbox_lable {
+.checkbox__lable {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +18,11 @@
     color: #757575;
 }
 
-.checkbox_input {
+.checkbox__input {
     appearance: none;
 }
 
-.checkbox_wrapper {
+.checkbox__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,13 +31,14 @@
     height: 18px;
     border: 1px solid var(--main-black-color);
     border-radius: 4px;
+    
+    .checkbox__input:checked + & {
+        background-color: var(--logo-hover-color);
+        border: transparent;
+    }
 }
 
-.checkbox_input:checked + .checkbox_wrapper {
-    background-color: var(--logo-hover-color);
-    border: transparent;
-}
 
-.checkbox_link {
+.checkbox__link {
     color: var(--logo-hover-color);
 }

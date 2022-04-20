@@ -43,9 +43,9 @@
     fill: #afb1b8;
 
     transition: fill var(--transition-origin);
-}
 
-.customer__link:hover .customer__icon,
-.customer__link:focus .customer__icon {
-    fill: var(--logo-hover-color);
+    .customer__link:hover &,
+    .customer__link:focus & {
+        fill: var(--logo-hover-color);
+    }
 }
